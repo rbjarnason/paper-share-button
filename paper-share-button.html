@@ -91,7 +91,7 @@ Custom property | Description | Default
         width: var(--paper-share-button-brand-icon-width, 40px);
       }
     </style>
-    <paper-menu-button id="shareMenu">
+    <paper-menu-button id="shareMenu" horizontal-align$="[[horizontalAlign]]">
       <paper-icon-button icon="[[buttonIcon]]" class="dropdown-trigger"></paper-icon-button>
       <paper-material class="dropdown-content">
         <div class="social-list">
@@ -199,6 +199,11 @@ Custom property | Description | Default
                 tumblr: {
                     type: Boolean,
                     value: false
+                },
+                
+                horizontalAlign: {
+                    type: String,
+                    value: "left"
                 }
             },
 
