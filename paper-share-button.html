@@ -213,6 +213,7 @@ Custom property | Description | Default
                   this.url = window.location.href;
                 }
                 if (this.url) {
+                    this.fire("share-tap", { brand: element.icon });
                     if (this.popup) {
                         switch (element.icon) {
                             case 'brand:facebook':
