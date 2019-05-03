@@ -105,7 +105,7 @@ $_documentContainer.innerHTML = `<dom-module id="paper-share-button">
       }
     </style>
     <paper-menu-button id="shareMenu" horizontal-align\$="[[horizontalAlign]]" vertical-align="bottom">
-      <paper-icon-button icon="[[buttonIcon]]" slot="dropdown-trigger"></paper-icon-button>
+      <paper-icon-button icon="[[buttonIcon]]" slot="dropdown-trigger" alt="Share"></paper-icon-button>
       <paper-material slot="dropdown-content">
         <div class="social-list">
           <div>
